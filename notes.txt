@@ -1,0 +1,42 @@
+new Date() - javascript code for time finding time.
+new Data().getHours() - javascript code for finding Hours.
+new Data().getMinutes() - javascript code for finding minutes.
+new Data().getSeconds() - javascript code for finding seconds.
+
+
+
+
+
+Calculation for Analogue clock:
+
+1] For Hour Hand: 
+12 Hours -> 360 degrees
+1 Hours -> 30 degrees
+
+60 minutes -> 30 degrees
+1 minutes -> 1/2 degress
+
+m minutes -> m/2 degrees
+
+so the formula becomes: m Hourses n minutes -> (30m + n/2) degress
+
+
+2] For Minute Hand: 
+
+60 minutes -> 360 degrees
+1 minutes -> 6 degrees
+
+so the formula becomes: m minutes -> 6m degrees
+
+2] For second Hand: 
+
+60 seconds -> 360 degrees
+1 seconds -> 6 degrees
+
+so the formula becomes: m seconds -> 6m degrees
+
+
+
+
+
+
